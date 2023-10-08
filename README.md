@@ -1,5 +1,7 @@
 # kb-payment-system
 
-Test 123 
+ 
 
-
+=======
+This is for open souce payment system for community events.
+ 

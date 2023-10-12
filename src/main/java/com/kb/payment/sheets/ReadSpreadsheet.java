@@ -25,7 +25,7 @@ public class ReadSpreadsheet {
         // Load sheet
         URL metafeedUrl = new URL(SPREADSHEET_URL);
         SpreadsheetEntry spreadsheet = service.getEntry(metafeedUrl, SpreadsheetEntry.class);
-        URL listFeedUrl = ((WorksheetEntry) spreadsheet.getWorksheets().get(0)).getListFeedUrl();
+        URL listFeedUrl = (spreadsheet.getWorksheets().get(0)).getListFeedUrl();
 
         // Print entries
         ListFeed feed = (ListFeed) service.getFeed(listFeedUrl, ListFeed.class);

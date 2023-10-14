@@ -1,4 +1,4 @@
-package com.kb.payment.persistance;
+package com.kb.payment.policy;
 
 import com.kb.payment.dto.SubmitRequestDto;
 
